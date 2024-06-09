@@ -1,0 +1,111 @@
+.verify-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.receipt {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.receipt h2 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 22px;
+  color: #333;
+}
+
+.receipt table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.receipt th,
+.receipt td {
+  padding: 15px;
+  text-align: left;
+  color: #555;
+}
+
+.receipt th {
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: bold;
+}
+
+.receipt td {
+  border-bottom: 1px solid #f0f0f0;
+  color: #666;
+}
+
+.receipt td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.receipt td ul li {
+  margin: 5px 0;
+}
+
+.receipt .amount {
+  font-weight: bold;
+  color: #333;
+}
+
+.message {
+  padding: 15px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #2e7d32;
+  background-color: #e9f6e9;
+  border: 1px solid #c8e6c9;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #d32f2f;
+  border: 1px solid #f5c6cb;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+.back-button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  background-color: tomato;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: max(15vw, 200px);
+  text-align: center;
+}
+
+.back-button:hover {
+  background-color: #d9534f;
+}
